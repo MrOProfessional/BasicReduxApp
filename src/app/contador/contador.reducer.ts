@@ -7,7 +7,7 @@ export function contadorReducer(state: number = 10, action: Action) {
         case increment.type:
             return state + 1;
         case decrement.type:
-            return state + 1;
+            return state - 1;
         default:
             return state;
     }
